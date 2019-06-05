@@ -21,7 +21,7 @@ const colors = {
 exports.decorateConfig = (config) => {
   return Object.assign({}, config, {
     foregroundColor: '#FAFAFA',
-    backgroundColor: `#303030`,
+    backgroundColor: `#212121`,
     borderColor: '#303030',
     cursorColor: 'rgba(128, 222, 234, .8)',
     colors,
@@ -38,7 +38,7 @@ exports.decorateConfig = (config) => {
         border: none;
       }
       .header_header {
-        background-color: #212121;
+        background-color: #2C2C2C;
       }
       .tabs_borderShim {
         display: none;
@@ -54,7 +54,7 @@ exports.decorateConfig = (config) => {
         left: 0;
         right: 0;
         height: 2px;
-        background-color: ${config.accentColor || '#80CBC4'};
+        background-color: ${config.accentColor || '#FF4D20'};
         transform: scaleX(0);
         transition: none;
       }

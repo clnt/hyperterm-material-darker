@@ -1,8 +1,8 @@
 {
-  "name": "hyperterm-material-dark",
+  "name": "hyperterm-material-darker",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jbw91/hyperterm-material-dark"
+    "url": "https://github.com/clnt/hyperterm-material-darker"
   },
   "version": "1.2.2",
   "description": "A material design based dark theme for hyperterm.",
@@ -10,12 +10,20 @@
   "keywords": [
     "hyperterm",
     "hyper",
-    "material"
+    "material",
+    "dark"
   ],
   "author": {
     "name": "John Woodruff",
     "email": "johnwoodruff91@gmail.com",
     "url": "http://johnbwoodruff.net"
   },
+  "contributors": [
+    {
+      "name": "Matt Clinton",
+      "email": "matt@laralabs.uk",
+      "url": "https://github.com/clnt"
+    }
+  ],
   "license": "MIT"
 }
